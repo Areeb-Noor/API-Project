@@ -2,7 +2,7 @@
 import requests
 
 #prompting user for a movie name as a string 
-movie_name = str(input("Enter a movie please: "))
+movie_name = str(input("Enter a movie (please make sure that the spelling and capitalizing is correct): "))
 
 #declaring API key which will be used for authentication
 api_key = 'b4779db09cabdb2c3b96f778ac5bbe3c'
